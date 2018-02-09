@@ -2,11 +2,13 @@
   font-family: 'corporate-logo';
   font-weight: bold;
   src: url('./fonts/logotypejp_mp_b_1.1.ttf') format('OpenType');
+  font-display: swap;
 }
 @font-face {
   font-family: 'corporate-logo';
   font-weight: normal;
   src: url('./fonts/logotypejp_mp_m_1.1.ttf') format('OpenType');
+  font-display: swap;
 }
 
 body,
@@ -14,7 +16,7 @@ html {
   margin: 0;
   color: #414042;
   background-color: #F6F6F6;
-  font-family: 'corporate-logo';
+  font-family: 'corporate-logo', "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
   font-weight: normal;
   line-height: 2em;
 }
