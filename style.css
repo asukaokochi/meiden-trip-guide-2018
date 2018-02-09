@@ -1,0 +1,112 @@
+@font-face {
+  font-family: 'corporate-logo';
+  font-weight: bold;
+  src: url('./fonts/logotypejp_mp_b_1.1.ttf') format('OpenType');
+}
+@font-face {
+  font-family: 'corporate-logo';
+  font-weight: normal;
+  src: url('./fonts/logotypejp_mp_m_1.1.ttf') format('OpenType');
+}
+
+body,
+html {
+  margin: 0;
+  color: #414042;
+  background-color: #F6F6F6;
+  font-family: 'corporate-logo';
+  font-weight: normal;
+  line-height: 2em;
+}
+
+hr {
+  width: 90%;
+  border-width: 1.5px;
+  border-style: solid;
+  border-color: #939598;
+}
+
+img.logo {
+  width: 90%;
+  margin: 0 auto;
+  display: block;
+}
+
+h2.date {
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  line-height: 3em;
+}
+
+h2.date:after,
+h2.date:before {
+    content: '';
+    display: table-cell;
+    width: 50%;
+    background: linear-gradient(transparent 50%, currentColor 50%, currentColor calc(50% + 2px), transparent calc(50% + 2px));
+    background-clip: padding;
+}
+
+h2.date:after {
+    border-left: 1em solid transparent;
+}
+
+h2.date:before {
+    border-right: 1em solid transparent;
+}
+
+
+/* article */
+article {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.events p {
+  display: inline-block;
+  font-size: 1.5em;
+}
+
+.events .time {
+  width: 100px;
+  margin-right: 10px;
+}
+
+.events p.time {
+  font-weight: bold;
+}
+
+.transfer .by{
+  margin-left: 130px;
+  padding-left: 15px;
+  border-left: 2px #939598 solid;
+}
+
+.transfer .by p {
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+.transfer .by img {
+  height: 1.5em;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
+
+.meal {
+  margin-left: 110px;
+}
+
+.meal p {
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+.meal img {
+  height: 1.5em;
+  margin-right: 10px;
+  vertical-align: middle;
+  display: inline-block;
+}
