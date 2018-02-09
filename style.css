@@ -18,6 +18,7 @@ html {
   background-color: #F6F6F6;
   font-family: 'corporate-logo', "Hiragino Kaku Gothic ProN","メイリオ", sans-serif;
   font-weight: normal;
+  font-size: 24px;
   line-height: 2em;
 }
 
@@ -41,24 +42,6 @@ h2.date {
   line-height: 3em;
 }
 
-h2.date:after,
-h2.date:before {
-    content: '';
-    display: table-cell;
-    width: 50%;
-    background: linear-gradient(transparent 50%, currentColor 50%, currentColor calc(50% + 2px), transparent calc(50% + 2px));
-    background-clip: padding;
-}
-
-h2.date:after {
-    border-left: 1em solid transparent;
-}
-
-h2.date:before {
-    border-right: 1em solid transparent;
-}
-
-
 /* article */
 article {
   width: 90%;
@@ -71,7 +54,7 @@ article {
 }
 
 .events .time {
-  width: 100px;
+  width: 120px;
   margin-right: 10px;
 }
 
@@ -80,7 +63,7 @@ article {
 }
 
 .transfer .by{
-  margin-left: 130px;
+  margin-left: 150px;
   padding-left: 15px;
   border-left: 2px #939598 solid;
 }
@@ -98,7 +81,7 @@ article {
 }
 
 .meal {
-  margin-left: 110px;
+  margin-left: 130px;
 }
 
 .meal p {
