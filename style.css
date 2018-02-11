@@ -35,6 +35,108 @@ img.logo {
   display: block;
 }
 
+header {
+  height: 2em;
+  padding: 1em;
+  overflow: hidden;
+}
+
+header img {
+  width: 2em;
+}
+
+header .logo-l {
+  float: left;
+}
+
+header .logo-r {
+  float: right;
+}
+
+.top-image {
+  position: relative;
+}
+
+.top-image img.background {
+  width: 100%;
+}
+
+.top-image img.logo {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 60%;
+}
+
+article.top {
+  width: 100%;
+  background-color: #3F3B3A;
+  overflow: hidden;
+}
+
+article.top .wrap {
+  width: 95%;
+  margin: 5% auto;
+  overflow: hidden;
+}
+
+article.top .day1 {
+  background-image: url('./images/day1.png');
+  background-size: cover;
+  padding: 10% 0;
+}
+
+article.top .day2 {
+  background-image: url('./images/day2.png');
+  background-size: cover;
+  padding: 10% 0 5% 0;
+}
+
+article.top .white {
+  background-color: #FFFFFF;
+}
+
+article.top img {
+  width: 100%;
+  display: block;
+}
+
+article.top img.logo {
+  width: 40%;
+  margin-bottom: 10%;
+  display: block;
+}
+
+article.top img.iphone-app {
+  width: 40%;
+  margin: 10% auto;
+}
+
+article.top a {
+  color: #000000;
+  font-style: normal;
+  text-decoration: none;
+}
+
+article.top .nav {
+  width: 90%;
+  margin: 3% auto;
+  font-size: 1.5em;
+  line-height: 2em;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+article.top p.class-name {
+  color: #FFFFFF;
+  font-size: 3em;
+  text-align: center;
+}
+
+/* head */
 .head {
   width: 90%;
   margin: 0 auto;
