@@ -36,13 +36,13 @@ img.logo {
 }
 
 header {
-  height: 2em;
+  height: 3em;
   padding: 1em;
   overflow: hidden;
 }
 
 header img {
-  width: 2em;
+  width: 3em;
 }
 
 header .logo-l {
@@ -59,6 +59,7 @@ header .logo-r {
 
 .top-image img.background {
   width: 100%;
+  display: block;
 }
 
 .top-image img.logo {
