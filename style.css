@@ -206,6 +206,13 @@ article {
     font-weight: bold;
 }
 
+/*吹き出し用（ごめん）*/
+
+.to-comment-area {
+    margin-left: 135px !important;
+    font-size: 1.2em !important;
+}
+
 .comment-area {
     color: #fff;
     line-height: 1.5;
@@ -220,7 +227,7 @@ article {
     box-sizing: border-box;
     min-height: 1em;
     word-wrap: break-word;
-    margin: 0;
+    margin-top: 0;
 }
 
 .comment-area::before {
@@ -268,4 +275,56 @@ article {
     margin-right: 10px;
     vertical-align: middle;
     display: inline-block;
+}
+
+.meal br {
+    margin: 0;
+}
+
+.meal__comment {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 2rem;
+}
+
+/*foot*/
+
+.foot {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.foot h2 {
+    color: #777;
+    width: 100%;
+    padding: 0;
+    margin: 1em 0;
+    font-size: 1.5em;
+    text-align: center;
+    font-weight: bold;
+    line-height: 3em;
+    float: left;
+    border: 5px solid #777;
+}
+
+.foot .arrow-wrap-l,
+.foot .arrow-wrap-r {
+    height: 1.5em;
+    margin: 3em 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.foot .arrow-wrap-l {
+    left: 0;
+}
+
+.foot .arrow-wrap-r {
+    right: 0;
+}
+
+.foot img {
+    width: 100%;
+    height: 100%;
 }
